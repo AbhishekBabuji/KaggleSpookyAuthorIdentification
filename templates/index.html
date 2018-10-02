@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href= "{{ url_for('static',filename='css/style.css') }}">
+  
+  
+</head>
+<body>
+<div class = 'intro'>
+  This is a simple website that hosts a Machine Learning model trained using <i>sklearn</i> to predict one of three authors:
+  <b>HP Lovecraft</b>, <b>Edgar Allan Poe</b> and <b>Mary Shelley</b>. Simply enter a passage of one of those three authors and you will get a prediction.
+
+
+</div>
+
+<div class="authorimage">
+  <div class="row">
+  <div class="column">
+    <h2>Mary Shelley</h2>
+    <p><img src = "{{ url_for('static',filename='img/mary.jpeg') }}"></p>
+  </div>
+  <div class="column">
+    <h2>H.P Lovecraft</h2>
+
+    <p><img src = "{{ url_for('static',filename='img/lovecraft.jpeg') }}"></p>
+  </div>
+  <div class="column">
+    <h2>Edgar Allan Poe</h2>
+    <p><img src = "{{ url_for('static',filename='img/eap.jpeg') }}"></p>
+  </div>
+</div>
+
+
+</div>
+
+
+<div class = 'input'>
+  <form action="/api" method="POST">
+  	<textarea name = "passage_input" cols="35" wrap="soft"></textarea>
+  	<br>
+    <input type="submit">
+</form>
+
+
+      
+ <span align = center>The author of the passaged entered is predicted to be: {{results}}</span>
+
+
+</div>
+
+
+
+
+</body>
+</html>

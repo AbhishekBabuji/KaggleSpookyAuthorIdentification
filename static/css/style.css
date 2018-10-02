@@ -1,0 +1,39 @@
+.intro {width:960px;
+      margin:0 auto;
+      padding:10px 25px;
+      border:1px solid #ccc;
+      background:#fff; }
+
+.input {width:960px;
+      margin:0 auto;
+      padding:10px 25px;
+      border:1px solid #ccc;
+      background:#fff; 
+  	  text-align: center;}
+
+
+
+ .authorimage {width:960px;
+      margin:0 auto;
+      padding:10px 25px;
+      border:1px solid #ccc; 
+  	  text-align: center;}
+
+ * {
+    box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: auto; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
