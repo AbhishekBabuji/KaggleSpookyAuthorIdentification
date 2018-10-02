@@ -12,7 +12,7 @@ import pandas as pd
 from flask import Flask, render_template, request
 from vectorspace import VectorSpace
 
-with open('/Users/abhishekbabuji/Desktop/spooky_author_model.pkl', 'rb') as fid:
+with open('spooky_author_model.pkl', 'rb') as fid:
     pkl_model_loaded = pickle.load(fid)
 
 app = Flask(__name__, static_url_path='')
