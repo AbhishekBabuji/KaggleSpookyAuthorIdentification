@@ -15,7 +15,6 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.pipeline import Pipeline
 from sklearn.svm import SVC
 
-
 class HyperParameterTuning:
     """
     Contains methods to return a pipeline object and a dictionary containing
