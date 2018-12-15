@@ -1,7 +1,7 @@
 """
 hyperparametertuning.py
 
-(C) 2017 by Abhishek Babuji <abhishekb2209@gmail.com>
+(C) 2018 by Abhishek Babuji <abhishekb2209@gmail.com>
 
 Contains methods to return a pipeline object and a dictionary containing
 classifier parameters

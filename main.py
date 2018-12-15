@@ -1,7 +1,7 @@
 """
 main.py
 
-(C) 2017 by Abhishek Babuji <abhishekb2209@gmail.com>
+(C) 2018 by Abhishek Babuji <abhishekb2209@gmail.com>
 
 Contains methods to read in the csv file, create combination of datasets
 with reductions and weighting schemes and rune and fit the model

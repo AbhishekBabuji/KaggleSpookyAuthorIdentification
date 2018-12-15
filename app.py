@@ -1,7 +1,7 @@
 """
 app.py
 
-(C) 2017 by Abhishek Babuji <abhishekb2209@gmail.com>
+(C) 2018 by Abhishek Babuji <abhishekb2209@gmail.com>
 
 Deploys application to the web
 """
@@ -25,6 +25,8 @@ def input_form():
 
     :return: render_template('/index.html')
     """
+
+
     return render_template('/index.html')
 
 
